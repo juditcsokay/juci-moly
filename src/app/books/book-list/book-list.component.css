@@ -1,0 +1,41 @@
+.book-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  row-gap: 2.5rem;
+}
+
+.book-item {
+  flex: 0 0 31%;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  padding: 1rem;
+
+  display: flex;
+  align-items: flex-end;
+  gap: 1.5rem;
+}
+
+.book-item,
+.book-item:visited {
+  color: var(--color-main-text);
+  text-decoration: none;
+}
+
+.book-cover {
+  max-height: 12rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.main-book-data {
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.book-title {
+  color: var(--color-main-text-dark);
+}

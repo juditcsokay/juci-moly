@@ -1,0 +1,33 @@
+.container {
+  max-width: 115rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: var(--color-background);
+}
+
+.content {
+  display: flex;
+  gap: 3.8rem;
+  padding: 3.8rem;
+  align-items: center;
+}
+
+.content:before {
+  content: "";
+  border: 1px solid var(--color-light-gray2);
+  align-self: stretch;
+}
+
+.content > * {
+  /* background-color: #fff; */
+  border-radius: 1rem;
+}
+
+.main-content {
+  flex: 0 0 67%;
+  order: -1;
+}
+
+.user-data {
+  flex: 1;
+}

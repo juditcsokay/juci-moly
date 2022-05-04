@@ -1,0 +1,16 @@
+.book-detail {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  padding: 2rem;
+
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.book-cover {
+  max-height: 25rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}

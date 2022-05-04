@@ -1,0 +1,14 @@
+<form class="search" (ngSubmit)="onSubmit(f)" #f="ngForm">
+  <input
+    type="text"
+    class="search__input"
+    placeholder="Search books"
+    name="searchInput"
+    ngModel
+  />
+  <button class="search__button" type="submit">
+    <svg class="search__icon">
+      <use xlink:href="../../assets/sprite.svg#icon-search"></use>
+    </svg>
+  </button>
+</form>
