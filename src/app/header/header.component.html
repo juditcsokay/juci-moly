@@ -7,11 +7,23 @@
   />
   <app-search></app-search>
   <nav class="user-nav">
-    <a href="" class="user-nav__menu1">
+    <a
+      routerLink="/olvasmanyaim"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      href=""
+      class="user-nav__menu1"
+    >
       <span class="user-nav__menu1-title">Olvasmányaim</span>
     </a>
-    <a href="" class="user-nav__menu2">
-      <span href="" class="user-nav__menu2-title">Menu2</span>
+    <a
+      href=""
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      class="user-nav__menu2"
+    >
+      <span href="" class="user-nav__menu2-title">Főoldal</span>
     </a>
     <a href="" class="user-nav__menu3">
       <span href="" class="user-nav__menu3-title">Menu3</span>

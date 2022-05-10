@@ -55,7 +55,8 @@
 .user-nav__user:hover,
 .user-nav__menu1:hover,
 .user-nav__menu2:hover,
-.user-nav__menu3:hover {
+.user-nav__menu3:hover,
+.active {
   color: var(--color-main-text-dark);
   background-color: var(--color-background);
   border-top: 0.3rem solid var(--color-main-coral);
