@@ -58,7 +58,7 @@
 .user-nav__menu3:hover {
   color: var(--color-main-text-dark);
   background-color: var(--color-background);
-  border-top: 0.25rem solid var(--color-main-coral);
+  border-top: 0.3rem solid var(--color-main-coral);
 }
 
 .user-nav__user-photo {
