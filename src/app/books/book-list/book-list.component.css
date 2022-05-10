@@ -1,14 +1,18 @@
 .book-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2.5rem;
+
+  /* display: flex;
   align-items: center;
   justify-content: space-between;
 
   flex-wrap: wrap;
-  row-gap: 2.5rem;
+  row-gap: 2.5rem; */
 }
 
 .book-item {
-  flex: 0 0 31%;
+  /* flex: 0 0 31%; */
   background-color: #fff;
   border-radius: 1rem;
   box-shadow: var(--shadow);
