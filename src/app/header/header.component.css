@@ -36,16 +36,13 @@
   fill: var(--color-light-gray3);
 }
 
-.user-nav__menu1-box,
-.user-nav__menu2-box {
-  gap: 1.25rem;
-  padding: 0 2rem;
-}
-
 .user-nav__menu1,
-.user-nav__menu2 {
+.user-nav__menu2,
+.user-nav__menu3 {
   text-decoration: none;
   font-weight: 600;
+  gap: 1.25rem;
+  padding: 0 2rem;
 }
 
 .user-nav__user {
@@ -55,8 +52,9 @@
 }
 
 .user-nav__user:hover,
-.user-nav__menu1-box:hover,
-.user-nav__menu2-box:hover {
+.user-nav__menu1:hover,
+.user-nav__menu2:hover,
+.user-nav__menu3:hover {
   background-color: var(--color-background);
   border-top: 0.25rem solid var(--color-main-coral);
 }
